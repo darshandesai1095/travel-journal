@@ -4,7 +4,7 @@ import React from 'react'
 export default function Card(props) {
 
     return (
-        <div className={`card-${props.item.id}`} className="card">
+        <div className={`card-${props.item.id} card`}>
             <div className="card__image-container">
                 <img
                     className="card__image"
